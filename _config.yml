@@ -39,7 +39,7 @@ analytics:
 twitter: 'ONS'
 
 # Sticky share buttons (facebook and twitter)
-stickshare: true
+stickyshare: true
 
 
 ###################################################################################################
