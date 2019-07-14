@@ -38,6 +38,9 @@ analytics:
 # Social media accounts.
 twitter: 'ONS'
 
+# Sticky share buttons (facebook and twitter)
+stickshare: true
+
 
 ###################################################################################################
 email_contacts:
