@@ -38,8 +38,8 @@ analytics:
 # Social media accounts.
 twitter: 'ONS'
 
-# Sticky share buttons (facebook and twitter)
-stickyshare: true
+# Sticky share buttons (facebook, twitter and email)
+sharethis_property: '5d279253faeee40012f195e1'
 
 
 ###################################################################################################
