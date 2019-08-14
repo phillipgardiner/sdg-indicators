@@ -118,7 +118,7 @@ custom_js:
   - /assets/js/custom.js
   
 custom_css:
-  - /assets/css/custom.css
+  - /assets/css/custom.scss
 
 # Mapping
 map_options:
