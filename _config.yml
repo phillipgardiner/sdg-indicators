@@ -116,6 +116,9 @@ remote_theme: open-sdg/open-sdg@0.7.1
 # Apply any custom Javascript.
 custom_js:
   - /assets/js/custom.js
+  
+custom_css:
+  - /assets/css/custom.css
 
 # Mapping
 map_options:
