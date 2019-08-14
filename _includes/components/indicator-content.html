@@ -1,7 +1,9 @@
 <div id="page-content">
-  <div class="alert warning" >
-    <h4>{{ meta.data_notice_heading }}</h4>
-    <p>{{ meta.data_notice_text }}</p>
-  </div>
+  {% if meta.data_notice_heading %}
+    <div class="alert warning" >
+      <h4>{{ meta.data_notice_heading }}</h4>
+      <p>{{ meta.data_notice_text }}</p>
+    </div>
+  {% endif %}
   {{ meta.page_content | markdownify }}
 </div>
