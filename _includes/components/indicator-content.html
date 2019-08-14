@@ -1,3 +1,7 @@
 <div id="page-content">
+  <div class="alert warning" >
+    <h4>{{ t.data_notice.data_notice }}</h4>
+    <p>{{ t.data_notice[sdg_data_notice.notice] }}</p>
+  </div>
   {{ meta.page_content | markdownify }}
 </div>
