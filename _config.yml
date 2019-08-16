@@ -117,6 +117,11 @@ remote_theme: open-sdg/open-sdg@0.7.1
 custom_js:
   - /assets/js/custom.js
 
+# Apply any custom css
+custom_css:
+  - /assets/css/custom.scss
+
+
 # Mapping
 map_options:
   tileURL: https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}
