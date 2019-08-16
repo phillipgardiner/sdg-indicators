@@ -1,1 +1,9 @@
-
+.notapplicable {
+  background-color: #959595;
+}
+.notstarted {
+  background-color: #000D80;
+}
+.complete {
+  background-color: #1499FC;
+}
