@@ -17,3 +17,17 @@
 .status.success, .status.complete {
   color: white;
 }
+
+.post-categories {
+@@ -1813,11 +1774,11 @@ body.contrast-high {
+      }
+    }
+    .indicator-cards {
+      a {
+        color: white !important;
+      }
+      span.status, .tags li, {
+        color: white !important;
+      }
+    }
+  }
