@@ -24,6 +24,9 @@ create_pages: true
 
 analytics:
   ga_prod: ''
+  
+# Stop x-axis labels from rotating automatically  
+avoid_rotation_of_axis_label: true
 
 # Social media accounts.
 twitter: 'ONS'
@@ -103,7 +106,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-open-sdg-plugins
 
-remote_theme: open-sdg/open-sdg@0.9.3
+remote_theme: open-sdg/open-sdg@slanted_axis_label
 
 # Apply any custom Javascript.
 custom_js:
