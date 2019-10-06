@@ -80,6 +80,8 @@ menu:
   # Use these to customise the main navigation.
   - path: /
     translation_key: general.goals
+  - path: /faq/
+    translation_key: home
   - path: /reporting-status/
     translation_key: menu.reporting_status
   - path: /about/
@@ -90,8 +92,7 @@ menu:
     translation_key: menu.guidance
   - path: /faq/
     translation_key: menu.faq
-  - path: /faq/
-    translation_key: news
+
 
 # This makes sure that all pages have a language.
 defaults:
