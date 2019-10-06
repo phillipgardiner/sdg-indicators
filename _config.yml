@@ -79,7 +79,7 @@ contrast_type: long
 menu:
   # Use these to customise the main navigation.
   - path: /
-    translation_key: home
+    translation_key: general.home
   - path: /reporting-status/
     translation_key: menu.reporting_status
   - path: /about/
