@@ -129,6 +129,7 @@
               <div class="embedded-map" id="embeddedmapframe">
                 <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
                 <script>document.querySelector("li.nav-item.embedded-map").addEventListener("click",function(){ var pymParent = new pym.Parent('embeddedmapframe', '{{ meta.embedded_feature_url }}', {});})</script>
+                <script>document.addEventListener("DOMContentLoaded", function(){document.querySelector("#embeddedmapframe iframe").setAttribute("height", "800px")})</script>
               </div>
             </div>
             {% endif %}
@@ -224,7 +225,5 @@
     </div>
   </div>
 </div>
-
-<script>document.querySelector("#embeddedmapframe iframe").setAttribute("height", "800px")</script>
 
 {% include footer.html %}
