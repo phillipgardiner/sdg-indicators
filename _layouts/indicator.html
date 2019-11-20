@@ -132,7 +132,7 @@
               </div>
               <div id="embedfooter" class="table-footer-text">
                 {% if meta.embed_footer %}
-                <p>{{ meta.embed_footer | t }}</p>
+                <p>{{ meta.embed_footer | t | markdownify }}</p>
                 {% endif %}
               </div>
             </div>
