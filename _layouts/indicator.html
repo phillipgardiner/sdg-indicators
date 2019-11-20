@@ -126,10 +126,14 @@
                 <h3 tabindex="0">{{ meta.embedded_feature_title }}</h3>
               </div>
             </div>
-              <div class="embedded-map" id="embeddedmapframe" height="750px">
+              <div class="embedded-map" id="embeddedmapframe">
                 <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
                 <script>document.querySelector("li.nav-item.embedded-map").addEventListener("click",function(){ var pymParent = new pym.Parent('embeddedmapframe', '{{ meta.embedded_feature_url }}', {});})</script>
-
+              </div>
+              <div id="embedfooter" class="table-footer-text">
+                {% if meta.embed_footer %}
+                <p>{{ meta.embed_footer | t }}</p>
+                {% endif %}
               </div>
             </div>
             {% endif %}
