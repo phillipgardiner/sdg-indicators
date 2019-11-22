@@ -105,7 +105,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-open-sdg-plugins
 
-remote_theme: open-sdg/open-sdg@embed-footer-field
+remote_theme: open-sdg/open-sdg@embed-footer-final
 
 # Apply any custom Javascript.
 custom_js:
