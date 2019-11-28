@@ -28,6 +28,9 @@ analytics:
 # Social media accounts.
 twitter: 'ONS'
 
+# Show sticky share buttons
+sharethis_property: '5d279253faeee40012f195e1'
+
 
 ###################################################################################################
 email_contacts:
