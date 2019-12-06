@@ -105,7 +105,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-open-sdg-plugins
 
-remote_theme: open-sdg/open-sdg@link-to-docs
+remote_theme: open-sdg/open-sdg@links-to-docs
 
 # Apply any custom Javascript.
 custom_js:
