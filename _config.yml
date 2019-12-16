@@ -12,7 +12,7 @@ baseurl: "/sdg-indicators" # the subpath of your site, e.g. /blog
 url: ""
 data_dir: data
 environment: staging
-remotedatabaseurl: "https://sdg.mango-solutions.com/data/7-3-1"
+remotedatabaseurl: "http://sdgdev-813006012.eu-west-1.elb.amazonaws.com/data/7-3-1"
 # permalink: /news/:year/:month/:day/:title.html
 
 jekyll_get_json:
