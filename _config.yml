@@ -93,13 +93,6 @@ menu:
   - path: /updates/
     translation_key: menu.updates
 
-# This makes sure that all pages have a language.
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      language: "en"
 
 plugins:
   - jekyll-remote-theme
